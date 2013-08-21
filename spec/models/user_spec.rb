@@ -16,6 +16,7 @@ describe User do
     it { should respond_to(:remember_token) }
     it { should respond_to(:authenticate) }
     it { should respond_to(:admin) }
+    it { should respond_to(:microposts) }
 
     describe "with admin attribute set to 'true'" do
         before do
